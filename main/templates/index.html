@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recensement fmpm</title>
+    {% load static %}
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'home/bde.ico'%}" />
+    <link rel="stylesheet" href="{% static 'home/style.css'%}">
+</head>
+<body>
+    <!-- bde picture-->
+    <img src="{% static 'home/bde.png'%}" id="photo"/>
+    <!-- text-->
+    <div class="title">Recensement des cours</div>
+    <a href="./1" target="_blank" class="links">1ere année</a>
+    <a href="./2" target="_blank" class="links">2eme année</a>
+    <a href="./3" target="_blank" class="links">3eme année</a>
+    <a href="./4" target="_blank" class="links">4eme année</a>
+    <a href="./5" target="_blank" class="links">5eme année</a> 
+    <div>
+        <img src="{% static 'home/logo.svg'%}" class="logo">
+    </div>
+</body>
+</html>
